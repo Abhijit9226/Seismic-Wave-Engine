@@ -13,10 +13,10 @@ The computational core is written in C and optimized using OpenMP for heavy tens
 The simulation relies on three main scripts to generate the environment, run the math, and render the output. 
 
 **Prerequisites:** GCC compiler with OpenMP support, and Python 3.x (with `numpy` and `matplotlib`).
-
+```
 **1. Generate the geological model**
 `build_geology.py` creates the 2D geological velocity/density models and exports them as binary input for the solver.
-```bash
+Bash
 python build_geology.py
 2. Compile the FDTD solvermain.c is the core numerical engine that applies the mathematical operators and calculates the stress/strain fields.
 
@@ -30,6 +30,7 @@ Bash
 
 Bash
 python animate.py
+```
 Author
 Abhijit Gupta
 BS-MS Dual Degree Student
