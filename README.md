@@ -6,7 +6,7 @@ This repository contains a high-performance 2D elastodynamic Finite-Difference T
 The computational core is written in C and optimized using OpenMP for heavy tensor mathematics and multi-threaded parallel processing. It implements Cerjan-type sponge-layer absorbing boundary conditions to prevent artificial reflections, while a Python frontend handles velocity model injection and output visualization.
 
 ## Simulation Results
-![Wavefield Animation](assets/Sim.mp4)
+![Wavefield Animation](assets/Sim.gif)
 ![Wavefield Animation](assets/Sim.png)
 ![Velocity Model](assets/Figure_1.png)
 ![SCG](assets/SCG.png)
