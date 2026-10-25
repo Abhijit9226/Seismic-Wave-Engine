@@ -34,6 +34,9 @@ Bash
 python animate.py
 ```
 Author
+
 Abhijit Gupta
-BS-MS Dual Degree Student
+
+BS-MS (Dual Degree)
+
 Indian Institute of Science Education and Research (IISER), Bhopal
